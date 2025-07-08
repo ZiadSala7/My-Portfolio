@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 
-import '../../../../../../../core/common/custom_animated_text.dart';
-import '../../../../../../../core/utils/app_strings.dart';
-import '../../../../../../../core/utils/text_styles.dart';
+import '../../../../../../core/common/custom_animated_text.dart';
+import '../../../../../../core/utils/app_strings.dart';
+import '../../../../../../core/utils/text_styles.dart';
 import 'hire_and_resume_button.dart';
 
 class MyInfoDescription extends StatefulWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/app_constants.dart';
 
-import '../../../../../../../core/utils/text_styles.dart';
-import '../../../data/technical.dart';
+import '../../../../../../core/utils/text_styles.dart';
 import 'technical_item.dart';
 
 class TechnicalSection extends StatelessWidget {
@@ -17,10 +17,10 @@ class TechnicalSection extends StatelessWidget {
           Text('\t\t\tTechnical', style: TextStyles.textStyle32),
           Flexible(
             child: ListView.builder(
-              itemCount: technicals.length,
+              itemCount: AppConstants.technicals.length,
               itemBuilder: (context, index) => Padding(
                 padding: const EdgeInsets.only(bottom: 20),
-                child: TechnicalItem(item: technicals[index]),
+                child: TechnicalItem(item: AppConstants.technicals[index]),
               ),
             ),
           ),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../../../../core/utils/app_colors.dart';
-import '../../../../../../core/common/desktop_app_bar.dart';
+import '../../../../../core/utils/app_colors.dart';
+import '../../../../../core/common/desktop_app_bar.dart';
 import 'widgets/skills_view_body.dart';
 
 class SkillsView extends StatelessWidget {

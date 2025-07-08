@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/core/utils/app_colors.dart';
-import '../../../../../../core/common/desktop_app_bar.dart';
+import '../../../../../core/common/desktop_app_bar.dart';
 import 'widgets/desktop_portfolio_view_body.dart';
 
 class DesktopPortfolioView extends StatelessWidget {

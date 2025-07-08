@@ -22,11 +22,11 @@ class CustomButton extends StatelessWidget {
             ? WidgetStatePropertyAll(BeveledRectangleBorder())
             : null,
         side: notAppbar
-            ? WidgetStatePropertyAll(BorderSide(color: AppColors.green))
+            ? WidgetStatePropertyAll(BorderSide(color: AppColors.common))
             : null,
         backgroundColor: WidgetStateProperty.resolveWith<Color>((states) {
           if (states.contains(WidgetState.hovered)) {
-            return const Color.fromARGB(138, 76, 175, 79);
+            return AppColors.btnHover;
           } else {
             return AppColors.bg;
           }

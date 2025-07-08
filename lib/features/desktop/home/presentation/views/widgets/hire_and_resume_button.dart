@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../../../core/common/custom_button.dart';
-import '../../../../../../../core/utils/app_strings.dart';
-import '../../../../../../../core/utils/text_styles.dart';
+import '../../../../../../core/common/custom_button.dart';
+import '../../../../../../core/utils/app_strings.dart';
+import '../../../../../../core/utils/text_styles.dart';
 
 class HireAndResumeButtons extends StatelessWidget {
   const HireAndResumeButtons({super.key});

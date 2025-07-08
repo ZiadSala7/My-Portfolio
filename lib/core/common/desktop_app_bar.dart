@@ -22,7 +22,7 @@ AppBar desktopAppBar() {
       SizedBox(width: 10),
       CustomButton(
         onPressed: () {},
-        widget: Text('Knowledge', style: TextStyles.textStyle20),
+        widget: Text('Experience', style: TextStyles.textStyle20),
         notAppbar: false,
       ),
       SizedBox(width: 10),

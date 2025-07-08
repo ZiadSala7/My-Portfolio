@@ -21,7 +21,7 @@ abstract class TextStyles {
     fontFamily: AppConstants.fontFamily,
     fontSize: 20,
     fontWeight: FontWeight.normal,
-    color: AppColors.green
+    color: AppColors.common,
   );
 
   static TextStyle textStyle24 = TextStyle(

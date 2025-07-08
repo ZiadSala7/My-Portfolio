@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'features/portfolio/desktop/presentation/views/desktop_portfolio_view.dart';
+import 'features/portfolio/desktop/skills/presentation/views/skills_view.dart';
 
 class MyPortfolio extends StatelessWidget {
   const MyPortfolio({super.key});
@@ -8,7 +7,7 @@ class MyPortfolio extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: DesktopPortfolioView(),
+      home: SkillsView(),
       debugShowCheckedModeBanner: false,
     );
   }

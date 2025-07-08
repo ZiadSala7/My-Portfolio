@@ -5,10 +5,12 @@ import '../utils/app_colors.dart';
 class CustomButton extends StatelessWidget {
   final Function() onPressed;
   final Widget widget;
+  final bool notAppbar;
   const CustomButton({
     super.key,
     required this.onPressed,
     required this.widget,
+    this.notAppbar = true,
   });
 
   @override
@@ -16,8 +18,12 @@ class CustomButton extends StatelessWidget {
     return TextButton(
       onPressed: onPressed,
       style: ButtonStyle(
-        shape: WidgetStatePropertyAll(BeveledRectangleBorder()),
-        side: WidgetStatePropertyAll(BorderSide(color: AppColors.green)),
+        shape: notAppbar
+            ? WidgetStatePropertyAll(BeveledRectangleBorder())
+            : null,
+        side: notAppbar
+            ? WidgetStatePropertyAll(BorderSide(color: AppColors.green))
+            : null,
         backgroundColor: WidgetStateProperty.resolveWith<Color>((states) {
           if (states.contains(WidgetState.hovered)) {
             return const Color.fromARGB(138, 76, 175, 79);

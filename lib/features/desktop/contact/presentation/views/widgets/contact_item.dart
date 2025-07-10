@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../../core/utils/app_colors.dart';
 import '../../../../../../core/utils/text_styles.dart';
 import '../../../data/contact_model.dart';
 
@@ -17,10 +16,7 @@ class ContactItem extends StatelessWidget {
           onPressed: model.onPressed,
           icon: Image.asset(model.contactImg, height: 50),
         ),
-        Text(
-          model.contactName,
-          style: TextStyles.textStyle20.copyWith(color: AppColors.white),
-        ),
+        Text(model.contactName, style: TextStyles.textStyle16),
       ],
     );
   }

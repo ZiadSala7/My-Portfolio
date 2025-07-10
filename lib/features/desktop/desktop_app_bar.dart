@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'custom_button.dart';
-import '../utils/text_styles.dart';
-import 'functions/page_controller_navigate.dart';
+import '../../core/common/widgets/custom_button.dart';
+import '../../core/utils/text_styles.dart';
+import '../../core/common/functions/page_controller_navigate.dart';
 
 AppBar desktopAppBar() {
   return AppBar(

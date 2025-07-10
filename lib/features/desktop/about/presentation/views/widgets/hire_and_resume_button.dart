@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../../core/common/custom_button.dart';
+import '../../../../../../core/common/widgets/custom_button.dart';
+import '../../../../../../core/common/functions/send_email.dart';
 import '../../../../../../core/common/functions/url_launcher.dart';
 import '../../../../../../core/utils/app_strings.dart';
 import '../../../../../../core/utils/text_styles.dart';
@@ -15,7 +16,7 @@ class HireAndResumeButtons extends StatelessWidget {
       children: [
         CustomButton(
           onPressed: () async {
-            // sendEmail();
+            sendEmail();
           },
           widget: Text(AppStrings.hireMe, style: TextStyles.textStyle20),
         ),

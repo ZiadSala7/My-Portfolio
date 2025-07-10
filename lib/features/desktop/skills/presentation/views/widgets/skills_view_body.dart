@@ -20,7 +20,7 @@ class SkillsViewBody extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               TechnicalSection(),
-              VerticalDivider(),
+              VerticalDivider(thickness: .25, endIndent: 100),
               ProgrammingLanguages(),
             ],
           ),

@@ -20,7 +20,7 @@ class ExperienceViewBody extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               VolunteerExperience(),
-              VerticalDivider(thickness: .25, endIndent: 50),
+              VerticalDivider(thickness: .25, endIndent: 100),
               MyServices(),
             ],
           ),

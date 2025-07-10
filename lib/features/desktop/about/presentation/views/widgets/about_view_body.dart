@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:portfolio/core/utils/app_images.dart';
 import 'my_info_descriptoin.dart';
 
-class DesktopPortfolioViewBody extends StatelessWidget {
-  const DesktopPortfolioViewBody({super.key});
+class AboutViewBody extends StatelessWidget {
+  const AboutViewBody({super.key});
 
   @override
   Widget build(BuildContext context) {

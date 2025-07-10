@@ -22,6 +22,7 @@ abstract class AppStrings {
   static const String gitHub = 'https://github.com/ZiadSala7';
   static const String whatsApp = 'https://wa.me/201119692767';
   static const String gmail = 'zslah1935@gmail.com';
+  static const String facebook = 'https://www.facebook.com/zezo.salah.73700/';
   static const String pharmAssistLink = 'zslah1935@gmail.com';
   static const String doclinkLink =
       'https://github.com/Open-Sourcers/DocLink_Flutter';

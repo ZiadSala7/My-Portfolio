@@ -1,39 +1,37 @@
 import 'package:flutter/material.dart';
-
 import 'custom_button.dart';
 import '../utils/text_styles.dart';
+import 'functions/page_controller_navigate.dart';
 
 AppBar desktopAppBar() {
   return AppBar(
-    title: Text('My Portfolio'),
-    centerTitle: false,
     actions: [
       CustomButton(
-        onPressed: () {},
+        onPressed: () => pageControllerNavigate(0),
         widget: Text('Home', style: TextStyles.textStyle20),
         notAppbar: false,
       ),
       SizedBox(width: 10),
       CustomButton(
-        onPressed: () {},
+        onPressed: () => pageControllerNavigate(1),
         widget: Text('Skills', style: TextStyles.textStyle20),
         notAppbar: false,
       ),
       SizedBox(width: 10),
       CustomButton(
-        onPressed: () {},
+        onPressed: () => pageControllerNavigate(2),
         widget: Text('Experience', style: TextStyles.textStyle20),
         notAppbar: false,
       ),
       SizedBox(width: 10),
       CustomButton(
-        onPressed: () {},
+        onPressed: () => pageControllerNavigate(3),
         widget: Text('Projects', style: TextStyles.textStyle20),
         notAppbar: false,
       ),
       SizedBox(width: 10),
       CustomButton(
-        onPressed: () {},
+        onPressed: () => pageControllerNavigate(4),
         widget: Text('Contact', style: TextStyles.textStyle20),
         notAppbar: false,
       ),

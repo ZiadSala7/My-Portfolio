@@ -16,7 +16,12 @@ abstract class TextStyles {
     fontWeight: FontWeight.normal,
     color: AppColors.grey,
   );
-
+  static TextStyle textStyle14 = TextStyle(
+    fontFamily: AppConstants.fontFamily,
+    fontSize: 14,
+    fontWeight: FontWeight.normal,
+    color: AppColors.grey,
+  );
   static TextStyle textStyle20 = TextStyle(
     fontFamily: AppConstants.fontFamily,
     fontSize: 20,

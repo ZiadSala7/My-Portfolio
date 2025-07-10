@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 import 'core/utils/app_images.dart';
 
 abstract class AppConstants {
@@ -38,4 +40,6 @@ abstract class AppConstants {
     AppImages.imagesSoftware,
     AppImages.imagesFlutter,
   ];
+
+  static final PageController desktopController = PageController();
 }

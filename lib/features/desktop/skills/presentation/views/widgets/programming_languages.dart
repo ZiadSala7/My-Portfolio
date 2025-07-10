@@ -16,18 +16,17 @@ class ProgrammingLanguages extends StatelessWidget {
         spacing: 30,
         children: [
           Text('\t\t\tLanguages', style: TextStyles.textStyle32),
-          Flexible(
-            child: GridView.builder(
-              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 4,
-              ),
-              itemCount: AppConstants.programmingLanguages.length,
-              itemBuilder: (context, index) => ProgrammingLanguageItem(
-                item: AppConstants.programmingLanguages[index],
-              ),
+          GridView.builder(
+            shrinkWrap: true,
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 4,
+            ),
+            itemCount: AppConstants.programmingLanguages.length,
+            itemBuilder: (context, index) => ProgrammingLanguageItem(
+              item: AppConstants.programmingLanguages[index],
             ),
           ),
-          Image.asset(AppImages.imagesGit, height: 400),
+          Flexible(child: Image.asset(AppImages.imagesGit)),
         ],
       ),
     );

@@ -14,7 +14,7 @@ abstract class AppConstants {
     ],
     [
       '2024 - 2025',
-      'Google Developer Student Club technical member (GDSC)',
+      'Google Developer Student Club (GDSC)',
       AppImages.imagesGdsc,
       '•	Mentored 3+ students during a Flutter camp.\n•	supported app development and deployment.\n•	Awarded a certificate for contributions to camp success.',
     ],

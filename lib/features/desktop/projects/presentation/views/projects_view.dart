@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/core/utils/app_colors.dart';
 
-import 'widgets/project_view_body.dart';
+import '../../../../../core/common/widgets/project_view_body.dart';
 
 class ProjectsView extends StatelessWidget {
   const ProjectsView({super.key});

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:portfolio/app_constants.dart';
 import 'package:portfolio/core/utils/app_colors.dart';
 
+import '../../core/common/widgets/project_view_body.dart';
 
 class MobilePageView extends StatelessWidget {
   const MobilePageView({super.key});
@@ -21,7 +22,7 @@ class MobilePageView extends StatelessWidget {
         ),
       ),
       drawer: Drawer(),
-      body: SizedBox(),
+      body: ProjectViewBody(crossAxisCount: 1, aspectRatio: 4 / 3),
     );
   }
 }

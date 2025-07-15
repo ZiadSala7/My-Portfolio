@@ -4,9 +4,9 @@ import '../../../../../../core/utils/app_colors.dart';
 import '../../../../../../core/utils/app_images.dart';
 import '../../../../../../core/utils/text_styles.dart';
 
-class TechnicalItem extends StatelessWidget {
+class DesktopTechnicalItem extends StatelessWidget {
   final String item;
-  const TechnicalItem({super.key, required this.item});
+  const DesktopTechnicalItem({super.key, required this.item});
 
   @override
   Widget build(BuildContext context) {

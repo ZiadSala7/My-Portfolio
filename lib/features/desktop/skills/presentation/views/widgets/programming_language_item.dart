@@ -6,7 +6,12 @@ import '../../../../../../core/utils/text_styles.dart';
 
 class ProgrammingLanguageItem extends StatelessWidget {
   final List item;
-  const ProgrammingLanguageItem({super.key, required this.item});
+  final double radius;
+  const ProgrammingLanguageItem({
+    super.key,
+    required this.item,
+    this.radius = 50,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +21,7 @@ class ProgrammingLanguageItem extends StatelessWidget {
       spacing: 20,
       children: [
         CircularPercentIndicator(
-          radius: 50,
+          radius: radius,
           lineWidth: 15,
           percent: item[2],
           progressColor: AppColors.common,

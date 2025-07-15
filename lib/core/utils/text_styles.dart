@@ -3,7 +3,7 @@ import 'package:portfolio/app_constants.dart';
 import 'package:portfolio/core/utils/app_colors.dart';
 
 abstract class TextStyles {
-  static TextStyle textStyle32 = TextStyle(
+  static const TextStyle textStyle32 = TextStyle(
     fontFamily: AppConstants.fontFamily,
     fontSize: 32,
     fontWeight: FontWeight.bold,
@@ -44,5 +44,11 @@ abstract class TextStyles {
     fontFamily: AppConstants.fontFamily,
     fontSize: 24,
     fontWeight: FontWeight.bold,
+  );
+  static TextStyle textStyle24White = TextStyle(
+    fontFamily: AppConstants.fontFamily,
+    fontSize: 24,
+    fontWeight: FontWeight.bold,
+    color: AppColors.white,
   );
 }

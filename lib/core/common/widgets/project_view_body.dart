@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/core/utils/text_styles.dart';
-import 'package:portfolio/features/desktop/projects/data/project_model.dart';
+import 'package:portfolio/features/desktop/data/project_model.dart';
 
 import '../../utils/app_colors.dart';
-import '../../../features/desktop/projects/presentation/views/widgets/projects_view_card.dart';
+import 'projects_view_card.dart';
 
 class ProjectViewBody extends StatelessWidget {
   final int crossAxisCount;

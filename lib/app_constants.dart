@@ -42,7 +42,5 @@ abstract class AppConstants {
   ];
 
   static final PageController desktopController = PageController();
-
-  static final GlobalKey<ScaffoldState> mobileDrawerKey =
-      GlobalKey<ScaffoldState>();
+  static final PageController mobileController = PageController();
 }

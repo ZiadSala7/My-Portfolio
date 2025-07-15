@@ -28,7 +28,7 @@ abstract class TextStyles {
     fontWeight: FontWeight.normal,
     color: AppColors.grey,
   );
-  static TextStyle textStyle20 = TextStyle(
+  static const TextStyle textStyle20 = TextStyle(
     fontFamily: AppConstants.fontFamily,
     fontSize: 20,
     fontWeight: FontWeight.normal,

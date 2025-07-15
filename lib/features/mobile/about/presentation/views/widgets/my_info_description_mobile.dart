@@ -1,38 +1,11 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
 
-import '../../../../../../core/common/widgets/custom_animated_text.dart';
 import '../../../../../../core/utils/app_strings.dart';
 import '../../../../../../core/utils/text_styles.dart';
 import '../../../../../desktop/about/presentation/views/widgets/hire_and_resume_button.dart';
 
-class MyInfoDescriptionMobile extends StatefulWidget {
+class MyInfoDescriptionMobile extends StatelessWidget {
   const MyInfoDescriptionMobile({super.key});
-
-  @override
-  State<MyInfoDescriptionMobile> createState() => _MyInfoDescriptionState();
-}
-
-class _MyInfoDescriptionState extends State<MyInfoDescriptionMobile> {
-  Timer? _timer;
-  int cnt = 1;
-  @override
-  void initState() {
-    _timer = Timer.periodic(Duration(seconds: 5), (timer) {
-      setState(() {
-        cnt++;
-      });
-      cnt == 3 ? _timer!.cancel() : null;
-    });
-    super.initState();
-  }
-
-  @override
-  void dispose() {
-    _timer?.cancel();
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -41,20 +14,8 @@ class _MyInfoDescriptionState extends State<MyInfoDescriptionMobile> {
       crossAxisAlignment: CrossAxisAlignment.start,
       spacing: 25,
       children: [
-        cnt >= 1
-            ? CustomAnimatedText(
-                text: AppStrings.name,
-                style: TextStyles.textStyle20White,
-                duration: 70,
-              )
-            : SizedBox(),
-        cnt >= 2
-            ? CustomAnimatedText(
-                text: AppStrings.desc,
-                style: TextStyles.textStyle16Grey,
-                duration: 30,
-              )
-            : SizedBox(),
+        Text(AppStrings.name, style: TextStyles.textStyle20White),
+        Text(AppStrings.desc, style: TextStyles.textStyle16Grey),
         HireAndResumeButtons(),
       ],
     );

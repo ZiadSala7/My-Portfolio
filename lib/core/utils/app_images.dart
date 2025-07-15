@@ -2,6 +2,8 @@
 class AppImages {
   AppImages._();
   
+  static const String imagesAppIcon = "assets/images/appIcon.png";
+
   static const String imagesChatbot = "assets/images/chatbot.png";
 
   static const String imagesChatbot2 = "assets/images/chatbot2.png";

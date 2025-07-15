@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../../../../app_constants.dart';
+import '../../../../../../core/utils/app_colors.dart';
 import '../../../../../../core/utils/text_styles.dart';
 import '../../../../../desktop/skills/presentation/views/widgets/programming_language_item.dart';
 
@@ -9,13 +10,14 @@ class MobileProgrammingLanguages extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Expanded(
-      child: Column(
+    return Scaffold(
+      backgroundColor: AppColors.bg,
+      body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         spacing: 30,
         children: [
           Text(
-            'Languages',
+            '\nLanguages',
             style: TextStyles.textStyle24White,
             textAlign: TextAlign.center,
           ),

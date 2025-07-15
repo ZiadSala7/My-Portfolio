@@ -16,7 +16,7 @@ class ProjectsViewCard extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         CheckImageHovered(model: model),
-        Text(model.projectDesc, style: TextStyles.textStyle16),
+        Text(model.projectDesc, style: TextStyles.textStyle16Grey),
       ],
     );
   }

@@ -26,7 +26,7 @@ class ContactViewBody extends StatelessWidget {
             ContactText(),
             Text(
               AppStrings.contactDesc,
-              style: TextStyles.textStyle16,
+              style: TextStyles.textStyle16Grey,
               textAlign: TextAlign.left,
             ),
             Align(

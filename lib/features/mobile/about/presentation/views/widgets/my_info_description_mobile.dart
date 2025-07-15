@@ -1,19 +1,20 @@
 import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 import '../../../../../../core/common/widgets/custom_animated_text.dart';
 import '../../../../../../core/utils/app_strings.dart';
 import '../../../../../../core/utils/text_styles.dart';
-import 'hire_and_resume_button.dart';
+import '../../../../../desktop/about/presentation/views/widgets/hire_and_resume_button.dart';
 
-class MyInfoDescription extends StatefulWidget {
-  const MyInfoDescription({super.key});
+class MyInfoDescriptionMobile extends StatefulWidget {
+  const MyInfoDescriptionMobile({super.key});
 
   @override
-  State<MyInfoDescription> createState() => _MyInfoDescriptionState();
+  State<MyInfoDescriptionMobile> createState() => _MyInfoDescriptionState();
 }
 
-class _MyInfoDescriptionState extends State<MyInfoDescription> {
+class _MyInfoDescriptionState extends State<MyInfoDescriptionMobile> {
   Timer? _timer;
   int cnt = 1;
   @override
@@ -43,7 +44,7 @@ class _MyInfoDescriptionState extends State<MyInfoDescription> {
         cnt >= 1
             ? CustomAnimatedText(
                 text: AppStrings.name,
-                style: TextStyles.textStyle32,
+                style: TextStyles.textStyle20White,
                 duration: 70,
               )
             : SizedBox(),

@@ -10,11 +10,17 @@ abstract class TextStyles {
     color: AppColors.white,
   );
 
-  static TextStyle textStyle16 = TextStyle(
+  static TextStyle textStyle16Grey = TextStyle(
     fontFamily: AppConstants.fontFamily,
     fontSize: 16,
     fontWeight: FontWeight.normal,
     color: AppColors.grey,
+  );
+  static TextStyle textStyle16white = TextStyle(
+    fontFamily: AppConstants.fontFamily,
+    fontSize: 16,
+    fontWeight: FontWeight.bold,
+    color: AppColors.white,
   );
   static TextStyle textStyle14 = TextStyle(
     fontFamily: AppConstants.fontFamily,
@@ -28,7 +34,12 @@ abstract class TextStyles {
     fontWeight: FontWeight.normal,
     color: AppColors.common,
   );
-
+  static TextStyle textStyle20White = TextStyle(
+    fontFamily: AppConstants.fontFamily,
+    fontSize: 20,
+    fontWeight: FontWeight.normal,
+    color: AppColors.white,
+  );
   static TextStyle textStyle24 = TextStyle(
     fontFamily: AppConstants.fontFamily,
     fontSize: 24,

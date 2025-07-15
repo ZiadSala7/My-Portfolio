@@ -16,7 +16,7 @@ class ContactItem extends StatelessWidget {
           onPressed: model.onPressed,
           icon: Image.asset(model.contactImg, height: 50),
         ),
-        Text(model.contactName, style: TextStyles.textStyle16),
+        Text(model.contactName, style: TextStyles.textStyle16Grey),
       ],
     );
   }

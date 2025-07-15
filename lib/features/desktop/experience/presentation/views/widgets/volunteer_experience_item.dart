@@ -36,7 +36,7 @@ class VolunteerExperienceItem extends StatelessWidget {
               ClipOval(child: Image.asset(lst[2], height: 70)),
             ],
           ),
-          Text(lst[3], style: TextStyles.textStyle16),
+          Text(lst[3], style: TextStyles.textStyle16Grey),
         ],
       ),
     );

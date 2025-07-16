@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'layout_chooser.dart';
+import 'package:portfolio/layout_chooser.dart';
 
 class MyPortfolio extends StatelessWidget {
   const MyPortfolio({super.key});

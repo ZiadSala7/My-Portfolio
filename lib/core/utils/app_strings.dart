@@ -23,7 +23,8 @@ abstract class AppStrings {
   static const String whatsApp = 'https://wa.me/201119692767';
   static const String gmail = 'zslah1935@gmail.com';
   static const String facebook = 'https://www.facebook.com/zezo.salah.73700/';
-  static const String pharmAssistLink = 'zslah1935@gmail.com';
+  static const String pharmAssistLink =
+      'https://www.linkedin.com/posts/ziad-salah-338378262_%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85-%D8%B9%D9%84%D9%8A%D9%83%D9%85-%D9%88%D8%B1%D8%AD%D9%85%D8%A9-%D8%A7%D9%84%D9%84%D9%87-%D9%88%D8%A8%D8%B1%D9%83%D8%A7%D8%AA%D9%87-%D9%83%D9%86%D8%AA-%D9%86%D8%B2%D9%84%D8%AA-activity-7350507824466014208-PeQF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEB7ctwBkCNSlCb3eXxz6Hiqpmxo5F0kPaI';
   static const String doclinkLink =
       'https://github.com/Open-Sourcers/DocLink_Flutter';
   static const String xoLink =

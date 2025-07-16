@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/app_constants.dart';
-import 'package:portfolio/core/utils/app_colors.dart';
-import 'package:portfolio/features/mobile/presentation/views/mobile_about_view.dart';
-import 'package:portfolio/features/mobile/presentation/views/mobile_projects_view.dart';
+import '../../../../app_constants.dart';
+import '../../../../core/utils/app_colors.dart';
+import 'mobile_about_view.dart';
+import 'mobile_projects_view.dart';
 import '../../../desktop/contact/presentation/views/contact_view.dart';
 import 'widgets/custom_drawer.dart';
-import 'widgets/mobile_experience_view_body.dart';
 import 'mobile_volunteer_experience.dart';
 import 'mobile_programming_language.dart';
 import 'mobile_technical_section.dart';
+import 'widgets/mobile_services.dart';
 
 class MobilePageView extends StatelessWidget {
   const MobilePageView({super.key});

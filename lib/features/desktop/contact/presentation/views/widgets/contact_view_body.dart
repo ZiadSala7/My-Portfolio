@@ -14,10 +14,7 @@ class ContactViewBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return FadeIn(
       duration: Duration(milliseconds: 100),
-      child: Container(
-        padding: EdgeInsets.all(10),
-        height: double.infinity,
-        width: double.infinity,
+      child: SingleChildScrollView(
         child: Column(
           spacing: 30,
           mainAxisAlignment: MainAxisAlignment.center,

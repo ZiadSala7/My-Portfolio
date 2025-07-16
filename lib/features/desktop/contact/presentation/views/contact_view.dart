@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/core/utils/app_colors.dart';
 
-import '../../../../../core/utils/app_colors.dart';
 import 'widgets/contact_view_body.dart';
 
 class ContactView extends StatelessWidget {
@@ -8,9 +8,9 @@ class ContactView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       backgroundColor: AppColors.bg,
-      body: ContactViewBody(),
+      body: const ContactViewBody(),
     );
   }
 }

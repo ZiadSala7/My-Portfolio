@@ -32,7 +32,7 @@ class ProjectViewBody extends StatelessWidget {
               itemCount: projects.length,
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: crossAxisCount,
-                mainAxisSpacing: 2,
+                mainAxisSpacing: 10,
                 childAspectRatio: aspectRatio,
               ),
               itemBuilder: (context, index) =>

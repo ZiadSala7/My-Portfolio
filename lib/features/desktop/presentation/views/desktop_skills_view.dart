@@ -8,7 +8,7 @@ class DesktopSkillsView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.container,
+      backgroundColor: AppColors.bg,
       body: DesktopSkillsViewBody(),
     );
   }

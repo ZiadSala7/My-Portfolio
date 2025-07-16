@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../app_constants.dart';
-import '../../../../../core/common/functions/page_controller_navigate.dart';
 import '../../../../../core/utils/app_colors.dart';
 import '../../../../../core/common/widgets/mobile_drawer_list_tile.dart';
 
@@ -15,36 +13,15 @@ class CustomDrawer extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          MobileDrawerListTile(index: 0, title: 'Home', icon: Icons.home),
+          MobileDrawerListTile(index: 1, title: 'Skills', icon: Icons.favorite),
+          MobileDrawerListTile(index: 3, title: 'Experience', icon: Icons.home),
           MobileDrawerListTile(
-            onPressed: () =>
-                pageControllerNavigate(0, AppConstants.mobileController),
-            title: 'Home',
-            icon: Icons.home,
-          ),
-          MobileDrawerListTile(
-            onPressed: () =>
-                pageControllerNavigate(1, AppConstants.mobileController),
-            title: 'Skills',
-            icon: Icons.favorite,
-          ),
-          MobileDrawerListTile(
-            onPressed: () =>
-                pageControllerNavigate(3, AppConstants.mobileController),
-            title: 'Experience',
-            icon: Icons.home,
-          ),
-          MobileDrawerListTile(
-            onPressed: () =>
-                pageControllerNavigate(5, AppConstants.mobileController),
+            index: 5,
             title: 'Projects',
-            icon: Icons.workspace_premium_outlined,
+            icon: Icons.workspace_premium,
           ),
-          MobileDrawerListTile(
-            onPressed: () =>
-                pageControllerNavigate(6, AppConstants.mobileController),
-            title: 'Contact',
-            icon: Icons.call,
-          ),
+          MobileDrawerListTile(index: 6, title: 'Contact', icon: Icons.call),
         ],
       ),
     );

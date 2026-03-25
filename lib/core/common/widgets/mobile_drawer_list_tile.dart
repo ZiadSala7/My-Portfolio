@@ -23,7 +23,7 @@ class MobileDrawerListTile extends StatelessWidget {
           onTap: () {
             AppConstants.mobileController.animateToPage(
               index,
-              duration: Duration(milliseconds: 1000),
+              duration: const Duration(milliseconds: 1000),
               curve: Curves.decelerate,
             );
             Navigator.pop(context);
@@ -33,7 +33,7 @@ class MobileDrawerListTile extends StatelessWidget {
             leading: Icon(icon, size: 40, color: AppColors.common),
           ),
         ),
-        Divider(thickness: 0),
+        const Divider(thickness: 0),
       ],
     );
   }

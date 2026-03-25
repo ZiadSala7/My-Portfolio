@@ -14,7 +14,7 @@ class TechnicalSection extends StatelessWidget {
         spacing: 30,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text('\t\t\tTechnical', style: TextStyles.textStyle32),
+          const Text('\t\t\tTechnical', style: TextStyles.textStyle32),
           Flexible(
             child: ListView.builder(
               itemCount: AppConstants.technicals.length,

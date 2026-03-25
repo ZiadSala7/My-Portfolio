@@ -18,13 +18,13 @@ class HireAndResumeButtons extends StatelessWidget {
           onPressed: () async {
             sendEmail();
           },
-          widget: Text(AppStrings.hireMe, style: TextStyles.textStyle20),
+          widget: const Text(AppStrings.hireMe, style: TextStyles.textStyle20),
         ),
         CustomButton(
           onPressed: () async {
             launchURL(AppStrings.resumeLink);
           },
-          widget: Text(AppStrings.getResume, style: TextStyles.textStyle20),
+          widget: const Text(AppStrings.getResume, style: TextStyles.textStyle20),
         ),
       ],
     );

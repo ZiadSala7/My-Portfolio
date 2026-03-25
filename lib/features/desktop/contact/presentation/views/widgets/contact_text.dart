@@ -15,7 +15,7 @@ class ContactText extends StatelessWidget {
           ' #',
           style: TextStyles.textStyle32.copyWith(color: AppColors.common),
         ),
-        Text(
+        const Text(
           AppStrings.contact,
           style: TextStyles.textStyle32,
           textAlign: TextAlign.center,

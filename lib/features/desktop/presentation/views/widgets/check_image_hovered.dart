@@ -37,7 +37,7 @@ class _CheckImageHoveredState extends State<CheckImageHovered> {
             ),
             borderRadius: BorderRadius.circular(20),
           ),
-          child: !inHovered ? null : LaunchconWidget(),
+          child: !inHovered ? null : const LaunchconWidget(),
         ),
       ),
     );

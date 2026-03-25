@@ -8,7 +8,7 @@ class CustomDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Drawer(
+    return const Drawer(
       backgroundColor: AppColors.container,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,

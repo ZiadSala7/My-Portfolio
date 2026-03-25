@@ -18,7 +18,7 @@ class _MyInfoDescriptionState extends State<MyInfoDescription> {
   int cnt = 1;
   @override
   void initState() {
-    _timer = Timer.periodic(Duration(seconds: 5), (timer) {
+    _timer = Timer.periodic(const Duration(seconds: 5), (timer) {
       setState(() {
         cnt++;
       });
@@ -41,20 +41,20 @@ class _MyInfoDescriptionState extends State<MyInfoDescription> {
       spacing: 25,
       children: [
         cnt >= 1
-            ? CustomAnimatedText(
+            ? const CustomAnimatedText(
                 text: AppStrings.name,
                 style: TextStyles.textStyle32,
                 duration: 70,
               )
-            : SizedBox(),
+            : const SizedBox(),
         cnt >= 2
             ? CustomAnimatedText(
                 text: AppStrings.desc,
                 style: TextStyles.textStyle16Grey,
                 duration: 30,
               )
-            : SizedBox(),
-        HireAndResumeButtons(),
+            : const SizedBox(),
+        const HireAndResumeButtons(),
       ],
     );
   }

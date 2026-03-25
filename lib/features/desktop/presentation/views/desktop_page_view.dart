@@ -19,7 +19,7 @@ class DesktopPageView extends StatelessWidget {
       body: PageView(
         controller: AppConstants.desktopController,
         scrollDirection: Axis.vertical,
-        children: [
+        children: const [
           DesktopAboutView(),
           DesktopSkillsView(),
           DesktopExperienceView(),

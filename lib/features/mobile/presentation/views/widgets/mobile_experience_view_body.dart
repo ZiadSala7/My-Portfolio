@@ -10,8 +10,7 @@ class MobileExperienceViewBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return PageView(
       scrollDirection: Axis.horizontal,
-      children: [MobileVolunteerExperience(), MobileMyServices()],
+      children: const [MobileVolunteerExperience(), MobileMyServices()],
     );
   }
 }
-

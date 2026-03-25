@@ -9,13 +9,13 @@ class LaunchconWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FadeIn(
-      duration: Duration(milliseconds: 50),
+      duration: const Duration(milliseconds: 50),
       child: Container(
         decoration: BoxDecoration(
           color: AppColors.btnHover,
           borderRadius: BorderRadius.circular(20),
         ),
-        child: Icon(Icons.launch, size: 50, color: AppColors.common),
+        child: const Icon(Icons.launch, size: 50, color: AppColors.common),
       ),
     );
   }

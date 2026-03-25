@@ -10,19 +10,19 @@ abstract class TextStyles {
     color: AppColors.white,
   );
 
-  static TextStyle textStyle16Grey = TextStyle(
+  static TextStyle textStyle16Grey = const TextStyle(
     fontFamily: AppConstants.fontFamily,
     fontSize: 16,
     fontWeight: FontWeight.normal,
     color: AppColors.grey,
   );
-  static TextStyle textStyle16white = TextStyle(
+  static TextStyle textStyle16white = const TextStyle(
     fontFamily: AppConstants.fontFamily,
     fontSize: 16,
     fontWeight: FontWeight.bold,
     color: AppColors.white,
   );
-  static TextStyle textStyle14 = TextStyle(
+  static TextStyle textStyle14 = const TextStyle(
     fontFamily: AppConstants.fontFamily,
     fontSize: 14,
     fontWeight: FontWeight.normal,
@@ -34,18 +34,18 @@ abstract class TextStyles {
     fontWeight: FontWeight.normal,
     color: AppColors.common,
   );
-  static TextStyle textStyle20White = TextStyle(
+  static TextStyle textStyle20White = const TextStyle(
     fontFamily: AppConstants.fontFamily,
     fontSize: 20,
     fontWeight: FontWeight.normal,
     color: AppColors.white,
   );
-  static TextStyle textStyle24 = TextStyle(
+  static TextStyle textStyle24 = const TextStyle(
     fontFamily: AppConstants.fontFamily,
     fontSize: 24,
     fontWeight: FontWeight.bold,
   );
-  static TextStyle textStyle24White = TextStyle(
+  static TextStyle textStyle24White = const TextStyle(
     fontFamily: AppConstants.fontFamily,
     fontSize: 24,
     fontWeight: FontWeight.bold,

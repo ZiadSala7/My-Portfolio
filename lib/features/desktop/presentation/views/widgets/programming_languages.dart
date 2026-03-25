@@ -15,10 +15,10 @@ class ProgrammingLanguages extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         spacing: 30,
         children: [
-          Text('\t\t\tLanguages', style: TextStyles.textStyle32),
+          const Text('\t\t\tLanguages', style: TextStyles.textStyle32),
           GridView.builder(
             shrinkWrap: true,
-            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 4,
             ),
             itemCount: AppConstants.programmingLanguages.length,

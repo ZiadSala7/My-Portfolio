@@ -12,13 +12,13 @@ class MyServices extends StatelessWidget {
         spacing: 30,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Text('\t\t\tServices', style: TextStyles.textStyle32),
+          const Text('\t\t\tServices', style: TextStyles.textStyle32),
           Flexible(
             child: GridView.builder(
               itemCount: AppConstants.images.length,
               itemBuilder: (context, index) =>
                   Image.asset(AppConstants.images[index]),
-              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2,
               ),
             ),

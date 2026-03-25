@@ -13,9 +13,9 @@ class DesktopExperienceViewBody extends StatelessWidget {
       height: double.infinity,
       width: double.infinity,
       child: FadeIn(
-        duration: Duration(seconds: 2),
-        child: Padding(
-          padding: const EdgeInsets.only(top: 20),
+        duration: const Duration(seconds: 2),
+        child: const Padding(
+          padding: EdgeInsets.only(top: 20),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [

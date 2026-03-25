@@ -16,7 +16,7 @@ class MyInfoDescriptionMobile extends StatelessWidget {
       children: [
         Text(AppStrings.name, style: TextStyles.textStyle20White),
         Text(AppStrings.desc, style: TextStyles.textStyle16Grey),
-        HireAndResumeButtons(),
+        const HireAndResumeButtons(),
       ],
     );
   }

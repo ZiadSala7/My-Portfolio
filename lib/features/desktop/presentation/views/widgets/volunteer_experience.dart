@@ -14,7 +14,7 @@ class VolunteerExperience extends StatelessWidget {
         spacing: 30,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text('\t\t\tVolunteer Experience', style: TextStyles.textStyle32),
+          const Text('\t\t\tVolunteer Experience', style: TextStyles.textStyle32),
           VolunteerExperienceItem(lst: AppConstants.volunteerExperiences[0]),
           VolunteerExperienceItem(lst: AppConstants.volunteerExperiences[1]),
         ],

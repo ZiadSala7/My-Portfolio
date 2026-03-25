@@ -11,7 +11,7 @@ class MobileVolunteerExperience extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FadeIn(
-      duration: Duration(seconds: 2),
+      duration: const Duration(seconds: 2),
       child: ListView(
         children: [
           Column(

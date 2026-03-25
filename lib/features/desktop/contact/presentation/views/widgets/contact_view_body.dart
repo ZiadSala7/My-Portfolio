@@ -13,14 +13,14 @@ class ContactViewBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FadeIn(
-      duration: Duration(milliseconds: 100),
+      duration: const Duration(milliseconds: 100),
       child: SingleChildScrollView(
         child: Column(
           spacing: 30,
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            ContactText(),
+            const ContactText(),
             Text(
               AppStrings.contactDesc,
               style: TextStyles.textStyle16Grey,
@@ -30,7 +30,7 @@ class ContactViewBody extends StatelessWidget {
               alignment: Alignment.topRight,
               child: Image.asset(AppImages.imagesHack, height: 300),
             ),
-            Align(alignment: Alignment.center, child: DisplayContactIcons()),
+            const Align(alignment: Alignment.center, child: DisplayContactIcons()),
           ],
         ),
       ),

@@ -36,7 +36,7 @@ class ProgrammingLanguageItem extends StatelessWidget {
             style: TextStyles.textStyle20.copyWith(color: AppColors.white),
           ),
         ),
-        SizedBox(),
+        const SizedBox(),
       ],
     );
   }

@@ -26,7 +26,7 @@ class VolunteerExperienceItem extends StatelessWidget {
         children: [
           // display the date of working
           Container(
-            padding: EdgeInsets.all(5),
+            padding: const EdgeInsets.all(5),
             decoration: BoxDecoration(
               border: BoxBorder.all(color: AppColors.common),
             ),

@@ -8,9 +8,9 @@ class ContactView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       backgroundColor: AppColors.bg,
-      body: const ContactViewBody(),
+      body: ContactViewBody(),
     );
   }
 }

@@ -7,6 +7,6 @@ class DesktopExperienceView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return DesktopExperienceViewBody();
+    return const DesktopExperienceViewBody();
   }
 }

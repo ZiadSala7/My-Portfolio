@@ -11,9 +11,9 @@ class LayoutChooser extends StatelessWidget {
     return LayoutBuilder(
       builder: (context, constraints) {
         if (constraints.maxWidth >= 1200) {
-          return DesktopPageView();
+          return const DesktopPageView();
         } else {
-          return MobilePageView();
+          return const MobilePageView();
         }
       },
     );

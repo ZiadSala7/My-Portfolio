@@ -12,35 +12,35 @@ AppBar desktopAppBar() {
       CustomButton(
         onPressed: () =>
             pageControllerNavigate(0, AppConstants.desktopController),
-        widget: Text('Home', style: TextStyles.textStyle20),
+        widget: const Text('Home', style: TextStyles.textStyle20),
         notAppbar: false,
       ),
-      SizedBox(width: 10),
+      const SizedBox(width: 10),
       CustomButton(
         onPressed: () =>
             pageControllerNavigate(1, AppConstants.desktopController),
-        widget: Text('Skills', style: TextStyles.textStyle20),
+        widget: const Text('Skills', style: TextStyles.textStyle20),
         notAppbar: false,
       ),
-      SizedBox(width: 10),
+      const SizedBox(width: 10),
       CustomButton(
         onPressed: () =>
             pageControllerNavigate(2, AppConstants.desktopController),
-        widget: Text('Experience', style: TextStyles.textStyle20),
+        widget: const Text('Experience', style: TextStyles.textStyle20),
         notAppbar: false,
       ),
-      SizedBox(width: 10),
+      const SizedBox(width: 10),
       CustomButton(
         onPressed: () =>
             pageControllerNavigate(3, AppConstants.desktopController),
-        widget: Text('Projects', style: TextStyles.textStyle20),
+        widget: const Text('Projects', style: TextStyles.textStyle20),
         notAppbar: false,
       ),
-      SizedBox(width: 10),
+      const SizedBox(width: 10),
       CustomButton(
         onPressed: () =>
             pageControllerNavigate(4, AppConstants.desktopController),
-        widget: Text('Contact', style: TextStyles.textStyle20),
+        widget: const Text('Contact', style: TextStyles.textStyle20),
         notAppbar: false,
       ),
     ],

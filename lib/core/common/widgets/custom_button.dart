@@ -19,10 +19,10 @@ class CustomButton extends StatelessWidget {
       onPressed: onPressed,
       style: ButtonStyle(
         shape: notAppbar
-            ? WidgetStatePropertyAll(BeveledRectangleBorder())
+            ? const WidgetStatePropertyAll(BeveledRectangleBorder())
             : null,
         side: notAppbar
-            ? WidgetStatePropertyAll(BorderSide(color: AppColors.common))
+            ? const WidgetStatePropertyAll(BorderSide(color: AppColors.common))
             : null,
         backgroundColor: WidgetStateProperty.resolveWith<Color>((states) {
           if (states.contains(WidgetState.hovered)) {
@@ -31,7 +31,7 @@ class CustomButton extends StatelessWidget {
             return AppColors.bg;
           }
         }),
-        padding: WidgetStatePropertyAll(
+        padding: const WidgetStatePropertyAll(
           EdgeInsets.symmetric(horizontal: 30, vertical: 15),
         ),
       ),

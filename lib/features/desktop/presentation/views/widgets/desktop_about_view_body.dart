@@ -10,12 +10,12 @@ class DesktopAboutViewBody extends StatelessWidget {
     return Container(
       height: double.infinity,
       width: double.infinity,
-      padding: EdgeInsets.symmetric(horizontal: 100),
+      padding: const EdgeInsets.symmetric(horizontal: 100),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          MyInfoDescription(),
+          const MyInfoDescription(),
           ClipOval(
             child: Image.asset(
               AppImages.imagesZezo,

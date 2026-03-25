@@ -23,7 +23,7 @@ class CustomAnimatedText extends StatelessWidget {
         ),
       ],
       totalRepeatCount: 1,
-      pause: Duration(milliseconds: 500),
+      pause: const Duration(milliseconds: 500),
       displayFullTextOnTap: true,
       stopPauseOnTap: true,
     );

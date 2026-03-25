@@ -8,6 +8,6 @@ class MobileAboutView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(backgroundColor: AppColors.bg, body: MobileAboutViewBody());
+    return const Scaffold(backgroundColor: AppColors.bg, body: MobileAboutViewBody());
   }
 }

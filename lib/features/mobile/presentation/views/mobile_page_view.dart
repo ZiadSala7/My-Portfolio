@@ -8,7 +8,6 @@ import 'widgets/custom_drawer.dart';
 import 'mobile_volunteer_experience.dart';
 import 'mobile_programming_language.dart';
 import 'mobile_technical_section.dart';
-import 'widgets/mobile_services.dart';
 
 class MobilePageView extends StatelessWidget {
   const MobilePageView({super.key});
@@ -31,7 +30,7 @@ class MobilePageView extends StatelessWidget {
           const MobileTechincalSection(),
           const MobileProgrammingLanguages(),
           const MobileVolunteerExperience(),
-          const MobileMyServices(),
+          // const MobileMyServices(),
           const MobileProjectsView(),
           const ContactView(),
         ],

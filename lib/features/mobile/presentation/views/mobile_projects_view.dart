@@ -7,9 +7,9 @@ class MobileProjectsView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      backgroundColor: AppColors.bg,
-      body: ProjectViewBody(aspectRatio: 3.9 / 3, crossAxisCount: 1),
+    return Container(
+      color: AppColors.bg,
+      child: const ProjectViewBody(aspectRatio: 3.9 / 3, crossAxisCount: 1),
     );
   }
 }

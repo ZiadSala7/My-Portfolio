@@ -10,32 +10,34 @@ class MobileTechincalSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: AppColors.bg,
-      body: Column(
-        spacing: 30,
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          Text(
-            '\nTechnical',
-            style: TextStyles.textStyle24White,
-            textAlign: TextAlign.center,
-          ),
-          Flexible(
-            child: ListView.builder(
-              shrinkWrap: true,
-              itemCount: AppConstants.technicals.length,
-              itemBuilder: (context, index) => Padding(
-                padding: const EdgeInsets.only(bottom: 20),
-                child: CustomTechnicalItem(
-                  style: TextStyles.textStyle20White,
-                  height: 25,
-                  item: AppConstants.technicals[index],
+    return Container(
+      color: AppColors.bg,
+      child: SingleChildScrollView(
+        child: Column(
+          spacing: 30,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Text(
+              '\nTechnical',
+              style: TextStyles.textStyle24White,
+              textAlign: TextAlign.center,
+            ),
+            Column(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: List.generate(
+                AppConstants.technicals.length,
+                (index) => Padding(
+                  padding: const EdgeInsets.only(bottom: 20),
+                  child: CustomTechnicalItem(
+                    style: TextStyles.textStyle20White,
+                    height: 25,
+                    item: AppConstants.technicals[index],
+                  ),
                 ),
               ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

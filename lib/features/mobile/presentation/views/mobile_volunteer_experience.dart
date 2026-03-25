@@ -12,7 +12,7 @@ class MobileVolunteerExperience extends StatelessWidget {
   Widget build(BuildContext context) {
     return FadeIn(
       duration: const Duration(seconds: 2),
-      child: ListView(
+      child: Column(
         children: [
           Column(
             spacing: 30,
